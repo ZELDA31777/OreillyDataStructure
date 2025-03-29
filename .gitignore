@@ -1,0 +1,42 @@
+# VS Code 설정 파일
+.vscode/
+
+# Java 빌드 관련 파일
+bin/
+out/
+target/
+*.class
+
+# IDE 관련 파일
+*.iml
+.idea/
+*.log
+
+# OS 관련 파일
+.DS_Store
+Thumbs.db
+
+# Maven, Gradle, IntelliJ 관련
+.mvn/
+.gradle/
+build/
+
+# Gradle 관련 파일 제외
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar  # Gradle Wrapper 유지
+
+# Java 빌드 파일
+bin/
+out/
+*.class
+
+# IDE 관련 파일
+.vscode/
+.idea/
+*.iml
+*.log
+
+# OS 관련 파일
+.DS_Store
+Thumbs.db
